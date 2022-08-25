@@ -1,4 +1,4 @@
-a = (10)
-b = (3)
+a = input(10)
+b = input(3)
 s = a + b
 print(s)
