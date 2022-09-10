@@ -1,0 +1,6 @@
+N = int(input())
+K = int(input())
+q = int(K/N) 
+R = int(K-N*q)
+print(q)
+print(R)
