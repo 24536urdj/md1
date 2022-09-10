@@ -1,0 +1,8 @@
+a = int(input())
+b = int(input())
+c = int(input())
+import math
+x = math.ceil(a/2)
+y = math.ceil(b/2)
+z = math.ceil(c/2)
+print(x+y+z)
