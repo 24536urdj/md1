@@ -1,0 +1,7 @@
+number = int(input())
+a = number%10
+b = (number//10 ) 
+c = b%10
+d = b//10
+f = (a*100) +(c*10)+ d
+print(f)
