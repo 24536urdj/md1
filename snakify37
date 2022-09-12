@@ -1,0 +1,7 @@
+A = int(input())
+B = int(input())
+N = int(input())
+d = int(N*A + (N*B)/100)
+e = N*A + (N*B)/100 - d
+f = e*100
+print(d , f)
