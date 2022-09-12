@@ -1,0 +1,8 @@
+a = int(input())
+b = int(input())
+c = int(input())
+e = a*60
+f = c/60
+g = e+b+f
+t = g/2
+print(t)
