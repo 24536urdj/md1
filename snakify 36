@@ -1,0 +1,4 @@
+N = int(input())
+b = N//60 
+c = N%60
+print( b,c)
