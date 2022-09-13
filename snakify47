@@ -1,0 +1,15 @@
+a = int(input())
+b = int(input())
+if a == b :
+    print("BLACK")
+else :
+    if a%2 == 0 and b%2 == 0 :
+        print("BLACK")
+    else :
+        if a == 1 and b%2 != 0 :
+            print("BLACK")
+        else :
+            if a%2 != 0 and b%2 != 0 :
+                print("BLACK")
+            else :
+                print("WHITE")
