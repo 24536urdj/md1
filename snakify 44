@@ -1,0 +1,15 @@
+locker_number = int(input("please enter your locker number (it should be between 1 and 2400) :"))
+color_code == locker_number%4
+if color_code == 0 :
+  color = "blue"
+else :
+  if color_code == 1 :
+      color ="red"
+  else :
+      if color_code == 2 :
+        color = "Yellow"
+      else :
+        if color_code == 3 :
+          color = "WHite"
+
+print (f"your locker's color is {color}")
