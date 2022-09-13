@@ -1,0 +1,14 @@
+number = int(input()) 
+color_code = number%4
+if color_code == 0 :
+  color = "blue"
+else :
+  if color_code == 1 :
+    color ="red"
+  else :
+    if color_code == 2 :
+      color = "Yellow"
+    else :
+      if color_code == 3 :
+        color = "WHite"
+print(color , 50*":)")
