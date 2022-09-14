@@ -1,0 +1,3 @@
+end_code = "\033[00m"
+for c in range(0,7) :
+  print(f"\033[0;3{c}m Rainbow {end_code}")
