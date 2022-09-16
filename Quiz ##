@@ -1,0 +1,6 @@
+Room_number = 1
+
+for a in range(1,10) :
+  for b in range(10) :
+    print(f"{a}-Room{Room_number}F{a}")
+    Room_number += 1
