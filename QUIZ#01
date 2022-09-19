@@ -1,0 +1,6 @@
+enter input 
+turn it into a list of separate characters(we can call it list1) 
+keep the first and the last character 
+calculate the number of characters in the string 
+substract 2
+print the result(first character ; sum of characters -2 ; last character) .
